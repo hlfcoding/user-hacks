@@ -1,0 +1,7 @@
+/* safari: .*feedly\.com\/i\/.* */
+
+body { mix-blend-mode: difference !important; }
+
+.entryBody img, .entryBody video { mix-blend-mode: difference !important; }
+
+.favicon { mix-blend-mode: difference !important; opacity: 0.7 !important; }
