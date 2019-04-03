@@ -1,0 +1,52 @@
+/* animeshow.tv */
+
+body {
+  background: black !important;
+}
+
+#main_content > [class^="img_bg"] {
+  display: none !important;
+}
+
+#episode_related .row, .related, .related_l,
+#anime, #anime_list, #episode, #episode_disqus, #episode_related, #episodes_list,
+#genres, #genres_result, #latest_anime, #may_like, #new_anime, #news, #p_a, #s_r,
+#sb_c, #search {
+  background-color: #6b7a82 !important;
+}
+
+/* - */
+
+#nav,
+header {
+  display: none !important;
+}
+
+#sb_c ul li {
+  border: none !important;
+}
+
+#main_content > .row,
+#episode, #p_a {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+footer {
+  margin-bottom: 0 !important;
+}
+
+/* - */
+
+#main_content ~ *,
+a[href^="http"]:not([href*="animeshow.tv"]),
+iframe:not([src*="disqus.com"]):not([src*="mp4upload.com"]),
+.ads_banner {
+  display: none !important;
+}
+
+/* mp4upload.com */
+
+body > div:not(#player) {
+  display: none !important;
+}
