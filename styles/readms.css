@@ -1,0 +1,23 @@
+/* readms.net */
+
+body {
+  background-color: black !important;
+  color: #eee !important;
+}
+
+body *:not(a):not([class*="icon-bar"]):not([class*="caret"]),
+a:not(:hover) {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: #333 !important;
+}
+
+/* - */
+
+[data-bidder="blank"] {
+  margin: 0 !important;
+}
+
+iframe:not(:hover) {
+  opacity: 0.2 !important;
+}
