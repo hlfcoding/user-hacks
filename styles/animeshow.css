@@ -47,6 +47,7 @@ iframe:not([src*="disqus.com"]):not([src*="mp4upload.com"]),
 
 /* mp4upload.com */
 
+.msc-iframe,
 body > div:not(#player) {
   display: none !important;
 }
